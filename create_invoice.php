@@ -126,32 +126,16 @@
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
             <div class="form-group mt-3 mb-3 ">
-              <label>Amount Paid: &nbsp;</label>
-                 <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text currency">$</span>
-            </div>
-            <input value="" type="number" class="form-control" name="amountPaid" id="amountPaid" placeholder="Amount Paid">
+            
+      
+           
           </div>
               </div>
           </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-            <div class="form-group mt-3 mb-3 ">
-              <label>Amount Due: &nbsp;</label>
-                 <div class="input-group mb-3">
-            <div class="input-group-prepend">
-              <span class="input-group-text currency">$</span>
-            </div>
-             <input value="" type="number" class="form-control" name="amountDue" id="amountDue" placeholder="Amount Due">
-          </div>
-              </div>
-          </div>
-            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-               <h3>Notes: </h3>
-               <div class="form-group">
-                  <textarea class="form-control txt" rows="5" name="notes" id="notes" placeholder="Your Notes"></textarea>
-               </div>
-               <br>
+
+           
+              
+             
                <div class="form-group">
                   <input type="hidden" value="<?php echo $_SESSION['userid']; ?>" class="form-control" name="userId">
                   <input data-loading-text="Saving Invoice..." type="submit" name="invoice_btn" value="Save Invoice" class="btn btn-success submit_btn invoice-save-btm">           
