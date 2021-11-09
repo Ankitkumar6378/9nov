@@ -1,0 +1,28 @@
+.main {
+    margin-top: 3%;
+}
+#dateShow, #dueShow, #balanceShow, #toShow {
+    border: none;
+}
+#subtotal, #tax, #discount, #shipping, #amountp, #total, #notes, #terms, #file {
+    border: none;
+}
+#logo {
+    visibility: hidden;
+}
+.jumbotron {
+    padding: 5%;
+}
+.lineItem {
+    margin: 1% 0%;
+}
+.col-sm-2 p {
+    vertical-align: middle;
+}
+#final {
+    float: right;
+    margin: 5% 0%;
+}
+#download {
+    margin-bottom: 5%;
+}
